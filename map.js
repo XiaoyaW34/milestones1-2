@@ -123,7 +123,7 @@ legend.onAdd = function (map) {
       typeCodes=[11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44]
       typeLabels = ['Low life expectancy / Low tree density', 'Low L.E. / Moderate T.D.', 'Low L.E. / High T.D.', 'Low L.E. / Very high T.D.', 'Moderate L.E. / Low T.D.', 'Moderate L.E. / Moderate T.D.', 'Moderate L.E. / High T.D.', 'Moderate L.E. / Very high T.D.','High L.E. / Low T.D.','High L.E. / Moderate T.D.','High L.E. / High T.D.','High L.E. / Very high T.D.','Very high L.E. / Low T.D.','Very high L.E. / Moderate T.D.','Very high L.E. / High T.D.','Very high L.E. / Very high T.D.'];
       
-  div_type.innerHTML = '<h4>Life Expectancy and Building Density</h4>' ;
+  div_type.innerHTML = '<h4>Life Expectancy and Tree Density</h4>' ;
   
   for (var i = 0; i < typeLabels.length; i++) {
       div_type.innerHTML +=
